@@ -28,7 +28,7 @@ group "Elm_Config" struct {
   value "scroll_smooth_time_window" double: 0.2;
   value "focus_autoscroll_mode" uchar: 0;
   value "scale" double: 1.0;
-  value "win_no_border" int: 1;
+  value "win_no_border" int: 0;
   value "bgpixmap" int: 0;
   value "compositing" int: 1;
   value "font_hinting" int: 2;
