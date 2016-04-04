@@ -2,7 +2,7 @@ prefix ?= /usr
 datadir ?= $(prefix)/share
 sysconfdir ?= /etc
 
-ELM_PROFILE ?= mobile
+ELM_PROFILE ?= common
 PROFILE_DIR = $(DESTDIR)/$(sysconfdir)/profile.d/
 CONFIG_DIR = $(DESTDIR)/$(datadir)/elementary/config/$(ELM_PROFILE)
 
